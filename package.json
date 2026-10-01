@@ -1,0 +1,12 @@
+{
+  "name": "node-red-render",
+  "description": "Node-RED on Render",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-node-base64": "*"
+  },
+  "scripts": {
+    "start": "node-red --userDir data"
+  }
+}
